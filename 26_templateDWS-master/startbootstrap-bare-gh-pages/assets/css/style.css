@@ -1,0 +1,25 @@
+section {
+    color: white;
+    background-color:blueviolet;
+    padding: 0 30px 30px 30px;
+    margin: 0 100px 0 100px;
+}
+section p{
+    font-size: 25px;
+    font-weight: 900;
+    padding: 0 30px 30px 30px;
+    margin: 0 100px 0 100px;
+}
+section:nth-child(even){
+    background-color: violet;
+}
+.primary{
+   /* background-image: url("https://images.unsplash.com/photo-1533907650686-70576141c030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");*/
+    background-image: url(../../assets/img/image.jpg);
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    background-color: transparent;
+}
