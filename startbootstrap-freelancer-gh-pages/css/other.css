@@ -13,3 +13,8 @@ section{
 section:nth-child(2n){
     background-color: violet;
 }
+
+.masthead-avatar{
+    border-radius: 50%;
+
+}
